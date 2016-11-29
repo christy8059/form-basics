@@ -15,22 +15,52 @@
         <h1>Form Basics</h1>
         <hr>
         <form action="http://www.w3schools.com/tags/demo_form.asp" method="get">
-
-            Name:
-            <input type="text" name="name"><br> E-mail:
-            <input type="email" name="email"><br>
+        
+        <input type ="radio" name= "age" value="under 18">  under 18
+        <input type ="radio" name= "age" value="18-25">  18-25 
+        <input type ="radio" name= "age" value="30-40"> 30-40
+        <input type ="radio" name= "age" value="50-60"> 50-60
+        
+        <br><br>
+            
+            Shipping Address <br>
 
             <!--add your own inputs below-->
+            
+         
+            <br>
+            
+            
+            <input type="text" name="country" placeholder="Country*" required><br>
+            <input type="text" name="First name" placeholder="First Name*" required><br>
+            <input type="text" name="Last name" placeholder="Last Name*" required><br>
+            <input type="text" name="Address" placeholder="Street Address*" required><br>
+            <input type="text" name="Apt" placeholder="Apt, Suite or Floor"><br>
+            <input type="text" name="P.O Box" placeholder="P.O Box"><br>
+            <input type="text" name="City " placeholder="City*" required><br>
+            <input type="text" name="State " placeholder="State*" required><br>
+            <input type="text" name="Zip code " placeholder="Zip Code*" required><br>
 
 
+            <select name="Shipping Method">
+            <option value= "next day" selected >next day </option>
+            <option value= "2-3 days" selected >2-3 day shipping </option> 
+            <option value="standard 5-7 business day " selected>standard 5-7 business day </option> <br> 
+           </select> <br> <br> 
+            
+            Contact Information <br>
+            
+            <input type="tel" name="phone" placeholder="Phone Number*" required><br>
+            <input type="email" name="email" placeholder="Email*" required><br>
 
 
-
+<input type ="checkbox"  name= "email confirm"  value ="email confirm"> email me confirmation<br> 
 
 
 
             <!--add your own inputs above-->
 
+            <br>
             <input class="blue-button" type="submit" value="Submit">
         </form>
     </div>
